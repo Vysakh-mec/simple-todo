@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <script src="https://kit.fontawesome.com/71b91e53ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Todo List</h1>
+        <ul id="todo-list">
+            <!-- <div class="todo-item active">
+                <li>Create a web page</li>
+                <button class="closeButton">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+             <div class="todo-item">
+                <li>Go shopping</li>
+                <button class="closeButton">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div> -->
+
+            <div class="emptybox" id="empty-box">
+                <p>No items in the list</p>
+            </div>
+                
+        </ul>
+        <form >
+            <input type="text" id="createTodo" name="createTodo" placeholder="What needs to be done?">
+            <button type="submit" id="add-todo"><i class="fa-solid fa-plus"></i></button>
+        </form>
+    <script src="./script.js"></script>
+</body>
+</html>

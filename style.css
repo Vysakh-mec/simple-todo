@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    
+}
+#app {
+    height: 100%;
+    max-width: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+li{
+    list-style: none;
+}
+.todo-item {
+    display: flex;
+    background-color: white;
+    padding: 5px 12px;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.active{
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: line-through;
+}
+.active i {
+    color: white;
+}
+
+.closeButton {
+    border: none;
+    cursor: pointer;
+    padding:8px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.closeButton:hover {
+    background-color: red;
+    color: white;
+}
+#todo-list {
+    flex: 1;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 16px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+form input {
+    flex: 1;
+    padding:12px ;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+form input:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+form button {
+    padding:  12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+form button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.emptybox {
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+    font-size: larger;
+}
