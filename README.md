@@ -1,5 +1,6 @@
 # Simple Todo App
-🔗 Live Demo : vysakh-mec.github.io/simple-todo/
+🔗 Live Demo : https://vysakh-mec.github.io/simple-todo/
+
 A simple and clean **Todo application** built using **Vanilla JavaScript, HTML, and CSS**.  
 This project focuses on revising **core JavaScript concepts** such as DOM manipulation, event handling, state management, and localStorage.
 
